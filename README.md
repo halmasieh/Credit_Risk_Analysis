@@ -62,7 +62,7 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 
 
-<img src="https://github.com/halmasieh/Credit_Risk_Analysis/blob/main/Undersampling.PNG" width="600" height="700"  />
+<img src="https://github.com/halmasieh/Credit_Risk_Analysis/blob/main/Undersampling.PNG" width="700" height="600"  />
 
 
 
