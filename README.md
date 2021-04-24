@@ -93,15 +93,6 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 
 
-<img src="" width="700" height="600"  />
-
-
-
-
-
-### Balanced Random Forest Classifier
-
-
 
 
 <img src="https://github.com/halmasieh/Credit_Risk_Analysis/blob/main/Balanced-Random-Forest.PNG" width="700" height="600"  />
