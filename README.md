@@ -31,7 +31,7 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 
 
-<img src="https://github.com/halmasieh/Credit_Risk_Analysis/blob/main/Naive-Random-Oversampling.PNG"/>
+<img src="https://github.com/halmasieh/Credit_Risk_Analysis/blob/main/Naive-Random-Oversampling.PNG" width="700" height="600"/>
 
 
 
@@ -46,7 +46,7 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 
 
-<img src="https://github.com/halmasieh/Credit_Risk_Analysis/blob/main/SMOTE-Oversampling.PNG"/>
+<img src="https://github.com/halmasieh/Credit_Risk_Analysis/blob/main/SMOTE-Oversampling.PNG" width="700" height="600"/>
 
 
 
@@ -93,7 +93,7 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 
 
-<img src="" width="550" height="400"  />
+<img src="" width="700" height="600"  />
 
 
 
@@ -104,7 +104,7 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 
 
-<img src="" width="550" height="400"  />
+<img src="" width="700" height="600"  />
 
 
 
@@ -115,7 +115,7 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 
 
-<img src="" width="550" height="400"  />
+<img src="" width="700" height="600"  />
 
 
 
