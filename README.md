@@ -115,7 +115,7 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 
 
-<img src="" width="700" height="600"  />
+<img src="https://github.com/halmasieh/Credit_Risk_Analysis/blob/main/Easy-Ensemble-AdaBoost.PNG" width="700" height="600"  />
 
 
 
@@ -127,17 +127,3 @@ since the percentage of Vine reviews gave 5-star ratings is higher than un-Vine 
 program has a positive bias. In order to support the statement of the positive bias that Vine reviews made versus the un-Vine reviews, 
 we can state that from the view of sentimental reviews, people who are getting paid for Vine-reviews are more positive than the people who do not pay.
 
-### Additional Analysis 
-As, shown in the following table, 
-
-
-
-
-<img src="https://github.com/halmasieh/Amazon_Vine_Analysis/blob/main/marketplace.PNG" width="400" height="500"  />
-
-
-
-
-we filtered the vine table based on the verified_purchase and marketplace columns. 
-This analysis shows in which marketplace the purchased item has occured the most and with this information, 
-the per capita consumption of the country can be predicted. 
