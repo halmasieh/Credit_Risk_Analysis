@@ -104,7 +104,7 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 
 
-<img src="" width="700" height="600"  />
+<img src="https://github.com/halmasieh/Credit_Risk_Analysis/blob/main/Balanced-Random-Forest.PNG" width="700" height="600"  />
 
 
 
