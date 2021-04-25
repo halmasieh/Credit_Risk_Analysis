@@ -62,8 +62,9 @@ The metrics for the majority class are as follows:
 - Model's Accuracy: 0.69
 - Balanced Accuracy Score: 0.66
 
-The precision ("pre" column) and recall ("rec" column) are not high for both the majority and minority class. The balanced accuracy score is 0.66. Compared to Naive 
-Random oversampling, precision and recall for both classes have increased slightly and the F1 score for low risk is higher. According to the low precision and recall, this model does not perform well, but compared to the Naive Random Forest works slightly better. The model's accuracy is low.
+The precision ("pre" column) and recall ("rec" column) are not high for both the majority and minority class. Compared to Naive 
+Random oversampling, precision and recall for both classes have increased slightly and the F1 score for low risk is higher. 
+According to the low precision and recall, this model does not perform well, but compared to the Naive Random Forest works slightly better. The model's accuracy is low.
 
 3- As shown in the following table,
 
