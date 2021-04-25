@@ -105,6 +105,12 @@ The metrics of the low risk class precision , recall and F1 score do not show a 
 
 
 
+The metrics for the majority class are as follows:
+- Precision: 1
+- Recall: 0.57
+- F1 Score: 0.73
+- Model's Accuracy: 0.57
+- Balanced Accuracy Score: 0.68
 
 The metrics of the majority class do not show a good performance. In fact, after combining the under and over sampling, we are not able to show a desireable performance at least for the majority class.
 
