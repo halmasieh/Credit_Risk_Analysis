@@ -156,8 +156,13 @@ The metrics for the majority class are as follows:
 By observing the existing metrics and in comparion with the five previous models, it is concluded that this classifier would be the best model for prediction credit resk and has less bias.
 
 ## Summary
-According to the observed percentages attributed to 5-star Vine reviews versus 5-star un-Vine reviews, it can be stated that
-since the percentage of Vine reviews gave 5-star ratings is higher than un-Vine reviews, so, we could probably tell that the Vine
-program has a positive bias. In order to support the statement of the positive bias that Vine reviews made versus the un-Vine reviews, 
-we can state that from the view of sentimental reviews, people who are getting paid for Vine-reviews are more positive than the people who do not pay.
+We first perrformed the strategy of oversampling uning Naive Random Forest to predict the credit risk. In fact instances of the minority class are randomly selected and added to the training set until the majority and minority classes are balanced. The result is shown that precision ("pre" column), recall ("rec" column) and F1 score are low for the majority the minority class. Then we applied for another oversampling approach (SMOTE) to increase the size of the minority and the metrics of the minority class (precision, recall, and F1 score) are slightly improved over those of random oversampling, although this model is not still a suitable classifier to predict data. 
 
+Undersampling is another technique to address class imbalance. Undersampling identifies clusters of the majority class, then generates synthetic data points, called centroids, that are representative of the clusters. By using undersampling, the results are unimpressive, especially for predicting data. These results are worse than those from oversampling! While resampling can attempt to address imbalance, it does not guarantee better results. 
+
+An approach to resampling is to combine aspects of both oversampling and undersampling. SMOTEENN combines the SMOTE and Edited Nearest Neighbors (ENN) algorithms in two-step process:
+1- Oversample the minority class with SMOTE.
+2- Clean the resulting data with an undersampling strategy. If the two nearest neighbors of a data point belong to two different classes, that data point is dropped.
+Resampling with SMOTEENN did not work miracles, but some of the metrics show an improvement over undersampling.
+
+Lastly, we applied two ensemble algorithms to determine which algorithm results has the best performance. We trained a Balanced Random Forest Classifier and an Easy Ensemble AdaBoost classifier. In the Balanced Random Forest Classifier, we droped some of the lower ranked features to improve the model. However, compared to previous models, there have been dramatic positive changes in metrics, but it still has the potential to get better. Therefore, Easy Ensemble AdaBoost Classifier has the stronger performance and we choose the last model for predicting the credit risk. The results of the last classifier seem to be closer to the actual values. 
