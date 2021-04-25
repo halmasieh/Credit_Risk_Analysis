@@ -37,11 +37,11 @@ As shown in the following table,
 
 
 
-From the confusion matrix results, the precision ("pre" column) is low, indicating a large number of false positives, which indicates an unreliable positive classification. The recall ("rec" column) is also low,  which is indicative of a large number of false negatives. The F1 score is also not so high (0.76). In summary, this random forest model is not good at classifying low risk because the model's accuracy and F1 score are low. In addition due to the very low precision and F1 score high risk, this model is not a good classifier for high risk as well.
+From the confusion matrix results, the precision ("pre" column) is low, indicating a large number of false positives, which indicates an unreliable positive classification. The recall ("rec" column) is also low,  which is indicative of a large number of false negatives. The F1 score is also not so high (0.76). In summary, this random forest model is not good at classifying low risk because the model's accuracy (0.60) and F1 score (0.76) are low. In addition due to the very low precision and F1 score high risk, this model is not a good classifier for high risk as well. The balanced accuracy score (0.65) is low.
 
 
 ###  SMOTE Oversampling
-
+As shown in the following table,
 
 
 
@@ -54,11 +54,10 @@ From the confusion matrix results, the precision ("pre" column) is low, indicati
 
 
 The precision ("pre" column) and recall ("rec" column) are not high for both the majority and minority class. The balanced accuracy score is 0.66. Compared to Naive 
-Random oversampling, precision and recall for both classes have increased slightly and the F1 score for low risk is higher. According to the low precision and recall, this model 
-does not perform well, but compared to the Naive Random Forest works slightly better. 
+Random oversampling, precision and recall for both classes have increased slightly and the F1 score (0.82) for low risk is higher. According to the low precision and recall, this model does not perform well, but compared to the Naive Random Forest works slightly better. The model's accuracy (0.69) is low.
 
 ### Undersampling
-
+As shown in the following table,
 
 
 
@@ -72,7 +71,7 @@ does not perform well, but compared to the Naive Random Forest works slightly be
 
 
 
-
+The metrics of the low risk class (precision (1), recall (0.40), and F1 score (0.57) do not show a good performance. The model's accuracy (0.41) and the balanced accuracy score (0.54) is very low. Therefore this model is not a good classifier for both the majority and minority class.   
 
 
 
@@ -80,7 +79,7 @@ does not perform well, but compared to the Naive Random Forest works slightly be
 
 ## Use the SMOTEENN Algorithm to Predict Credit Risk
 ### Combination (Over and Under) Sampling
-
+As shown in the following table,
 
 
 
@@ -90,9 +89,12 @@ does not perform well, but compared to the Naive Random Forest works slightly be
 
 
 
+The metrics of the majority class are precision (1), recall (0.57), F1 score (0.73), the model's accuracy (0.57) and the balanced accuracy score (0.68) do not show a good performance. In fact, after combining the under and over sampling, we are not able to show a desireable performance at least for the majority class.
+
+
 ## Use Ensemble Classifiers to Predict Credit Risk
 ### Balanced Random Forest Classifier
-
+As shown in the following table,
 
 
 
@@ -101,11 +103,19 @@ does not perform well, but compared to the Naive Random Forest works slightly be
 <img src="https://github.com/halmasieh/Credit_Risk_Analysis/blob/main/Balanced-Random-Forest.PNG" width="700" height="600"  />
 
 
+The metrics for the majority class are as follows:
+- Precision: 1
+- Recall: 0.87
+- F1 Score: 0.93
+- Model's Accuracy: 0.94
+- Balanced Accuracy Score: 0.93
+
+In fact, by choosing the balanced random forest classifier, we observe significient changes in the metric specially the last two. Therefore, this classifier will perform well if it is selected to predict to predict the tast data.  
 
 
 
 ### Easy Ensemble AdaBoost Classifier
-
+As shown in the following table,
 
 
 
@@ -114,6 +124,14 @@ does not perform well, but compared to the Naive Random Forest works slightly be
 
 
 
+The metrics for the majority class are as follows:
+- Precision: 1
+- Recall: 0.94
+- F1 Score: 0.97
+- Model's Accuracy: 0.94
+- Balanced Accuracy Score: 0.93 
+
+By observing the existing metrics and in comparion with the five previous models, it is concluded that this classifier would be the best model for prediction.
 
 ## Summary
 According to the observed percentages attributed to 5-star Vine reviews versus 5-star un-Vine reviews, it can be stated that
