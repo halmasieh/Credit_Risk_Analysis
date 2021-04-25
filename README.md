@@ -24,8 +24,7 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 ## Use Resampling Models to Predict Credit Risk
 
-### Naive Random Oversampling
-As shown in the following table,
+1-As shown in the following table,
 
 
 
@@ -45,8 +44,7 @@ The metrics for the majority class are as follows:
  
 From the confusion matrix results, the precision ("pre" column) is low, indicating a large number of false positives, which indicates an unreliable positive classification. The recall ("rec" column) is also low,  which is indicative of a large number of false negatives. The F1 score is also not so high. In summary, this random forest model is not good at classifying low risk because the model's accuracy and F1 score are low. In addition due to the very low precision and F1 score, this model is not a good classifier for high risk as well. 
 
-###  SMOTE Oversampling
-As shown in the following table,
+2- As shown in the following table,
 
 
 
@@ -67,8 +65,7 @@ The metrics for the majority class are as follows:
 The precision ("pre" column) and recall ("rec" column) are not high for both the majority and minority class. The balanced accuracy score is 0.66. Compared to Naive 
 Random oversampling, precision and recall for both classes have increased slightly and the F1 score for low risk is higher. According to the low precision and recall, this model does not perform well, but compared to the Naive Random Forest works slightly better. The model's accuracy is low.
 
-### Undersampling
-As shown in the following table,
+3- As shown in the following table,
 
 
 
@@ -94,7 +91,7 @@ The metrics of the low risk class precision , recall and F1 score do not show a 
 
 
 
-### Combination (Over and Under) Sampling using SMOTEENN Algorithm
+4- Combination (Over and Under) Sampling using SMOTEENN Algorithm
 As shown in the following table,
 
 
@@ -110,8 +107,7 @@ The metrics of the majority class are precision (1), recall (0.57), F1 score (0.
 
 ## Use Ensemble Classifiers to Predict Credit Risk
 
-### Balanced Random Forest Classifier
-As shown in the following table,
+1- As shown in the following table,
 
 
 
@@ -131,8 +127,7 @@ In fact, by choosing the balanced random forest classifier, we observe significi
 
 
 
-### Easy Ensemble AdaBoost Classifier
-As shown in the following table,
+2-As shown in the following table,
 
 
 
