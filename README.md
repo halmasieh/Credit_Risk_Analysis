@@ -133,7 +133,7 @@ The metrics for the majority class are as follows:
 - Model's Accuracy: 0.94
 - Balanced Accuracy Score: 0.93
 
-In fact, by choosing the balanced random forest classifier, we observe significient changes in the metric specially the last two. Therefore, this classifier will perform well if it is selected to predict to predict the tast data and reduce bias.  
+In fact, by choosing the balanced random forest classifier, we observe significient changes in the metric specially the last two. Therefore, this classifier will perform well if it is selected to predict the credit risk and reduce bias.  
 
 
 
