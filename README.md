@@ -125,7 +125,7 @@ The metrics for the majority class are as follows:
 - Model's Accuracy: 0.94
 - Balanced Accuracy Score: 0.93
 
-In fact, by choosing the balanced random forest classifier, we observe significient changes in the metric specially the last two. Therefore, this classifier will perform well if it is selected to predict to predict the tast data.  
+In fact, by choosing the balanced random forest classifier, we observe significient changes in the metric specially the last two. Therefore, this classifier will perform well if it is selected to predict to predict the tast data and reduce bias.  
 
 
 
@@ -146,7 +146,7 @@ The metrics for the majority class are as follows:
 - Model's Accuracy: 0.94
 - Balanced Accuracy Score: 0.93 
 
-By observing the existing metrics and in comparion with the five previous models, it is concluded that this classifier would be the best model for prediction.
+By observing the existing metrics and in comparion with the five previous models, it is concluded that this classifier would be the best model for prediction credit resk and has less bias.
 
 ## Summary
 According to the observed percentages attributed to 5-star Vine reviews versus 5-star un-Vine reviews, it can be stated that
