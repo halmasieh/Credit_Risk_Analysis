@@ -23,6 +23,7 @@ library: Scikit-learn
 Using the credit card credit dataset from LendingClub, a peer-to-peer lending services company, we’ll oversample the data using the RandomOverSampler and SMOTE algorithms, and undersample the data using the ClusterCentroids algorithm. Then, we’ll use a combinatorial approach of over- and undersampling using the SMOTEENN algorithm. Next, we’ll compare two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk. Lastly, we’ll evaluate the performance of these models to be used to predict credit risk.
 
 ## Use Resampling Models to Predict Credit Risk
+
 ### Naive Random Oversampling
 As shown in the following table,
 
@@ -92,8 +93,8 @@ The metrics of the low risk class precision , recall and F1 score do not show a 
 
 
 
-## Use the SMOTEENN Algorithm to Predict Credit Risk
-### Combination (Over and Under) Sampling
+
+### Combination (Over and Under) Sampling using SMOTEENN Algorithm
 As shown in the following table,
 
 
@@ -108,6 +109,7 @@ The metrics of the majority class are precision (1), recall (0.57), F1 score (0.
 
 
 ## Use Ensemble Classifiers to Predict Credit Risk
+
 ### Balanced Random Forest Classifier
 As shown in the following table,
 
