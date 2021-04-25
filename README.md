@@ -1,7 +1,7 @@
 # Credit_Risk_Analysis
 
 ## Project Overview
-All around the world, people borrow money to produce cars, homes,start bussinesses and persue education.
+All around the world, people borrow money to produce cars, homes, start bussinesses and persue education.
 Loans are essential part of modern society and present an opportunity and challenge for bank and another 
 lender institutions. On one hand, loans create revenue with the interest rate generated, on the other hand, there is a risk of not paying people and lenders may loose money. Banks rely on income, credite scores and people's assets to reduce the risk. By increasing the financial technologies and using machine learning, bank can analyze this risk. Machine learning can process data to receive a single decision. 
 
