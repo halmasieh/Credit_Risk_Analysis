@@ -25,7 +25,7 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 ## Use Resampling Models to Predict Credit Risk
 ### Naive Random Oversampling
-
+As shown in the following table,
 
 
 
@@ -37,6 +37,8 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 
 
+While precision ("pre" column) and recall ("rec" column) are not high for the majority and minority class. The balanced accuracy score is 0.65. 
+From the confusion matrix results, the precision ("pre" column) is low, indicating a large number of false positives, which indicates an unreliable positive classification. The recall ("rec" column) is also low,  which is indicative of a large number of false negatives. The F1 score is also not so high (0.76). In summary, this random forest model is not good at classifying low risk because the model's accuracy and F1 score are low. In addition due to the very low precision and F1 score high risk, this model is not a good classifier for high risk as well.
 
 
 ###  SMOTE Oversampling
