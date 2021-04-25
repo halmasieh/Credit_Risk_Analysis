@@ -165,6 +165,7 @@ An approach to resampling is to combine aspects of both oversampling and undersa
 1- Oversample the minority class with SMOTE.
 
 2- Clean the resulting data with an undersampling strategy. If the two nearest neighbors of a data point belong to two different classes, that data point is dropped.
+
 Resampling with SMOTEENN did not work miracles, but some of the metrics show an improvement over undersampling.
 
 Lastly, we applied two ensemble algorithms to determine which algorithm results has the best performance. We trained a Balanced Random Forest Classifier and an Easy Ensemble AdaBoost classifier. In the Balanced Random Forest Classifier, we droped some of the lower ranked features to improve the model. However, compared to previous models, there have been dramatic positive changes in metrics, but it still has the potential to get better. Therefore, Easy Ensemble AdaBoost Classifier has the stronger performance and we choose the last model for predicting the credit risk. The results of the last classifier seem to be closer to the actual values. 
