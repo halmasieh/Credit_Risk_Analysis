@@ -43,7 +43,7 @@ The metrics for the majority class are as follows:
 - Model's Accuracy: 0.60
 - Balanced Accuracy Score: 0.65
  
-From the confusion matrix results, the precision ("pre" column) is low, indicating a large number of false positives, which indicates an unreliable positive classification. The recall ("rec" column) is also low,  which is indicative of a large number of false negatives. The F1 score is also not so high. In summary, this random forest model is not good at classifying low risk because the model's accuracy and F1 score are low. In addition due to the very low precision and F1 score high risk, this model is not a good classifier for high risk as well. 
+From the confusion matrix results, the precision ("pre" column) is low, indicating a large number of false positives, which indicates an unreliable positive classification. The recall ("rec" column) is also low,  which is indicative of a large number of false negatives. The F1 score is also not so high. In summary, this random forest model is not good at classifying low risk because the model's accuracy and F1 score are low. In addition due to the very low precision and F1 score, this model is not a good classifier for high risk as well. 
 
 ###  SMOTE Oversampling
 As shown in the following table,
