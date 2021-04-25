@@ -5,7 +5,7 @@ All around the world, people borrow money to produce cars, homes, start bussines
 Loans are essential part of modern society and present an opportunity and challenge for bank and another 
 lender institutions. On one hand, loans create revenue with the interest rate generated, on the other hand, there is a risk of not paying people and lenders may loose money. Banks rely on income, credit scores and people's assets to reduce the risk. By increasing the financial technologies and using machine learning, bank can analyze this risk. Machine learning can process data to receive a single decision. 
 
-This analysis can be summarized in the following steps:
+This analysis can be summarized in the following steps, using machine learning:
 - Use Python and Scikit-learn to predict credit risk.
 - Compare the strengths and weaknesses of machine learning models.
 - Assess how well a model classsifies and predicts data.
