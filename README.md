@@ -44,6 +44,7 @@ The metrics for the majority class are as follows:
  
 From the confusion matrix results, the precision ("pre" column) is low, indicating a large number of false positives, which indicates an unreliable positive classification. The recall ("rec" column) is also low,  which is indicative of a large number of false negatives. The F1 score is also not so high. In summary, this random forest model is not good at classifying low risk because the model's accuracy and F1 score are low. In addition due to the very low precision and F1 score, this model is not a good classifier for high risk as well. 
 
+
 2- As shown in the following table,
 
 
@@ -65,6 +66,7 @@ The metrics for the majority class are as follows:
 The precision ("pre" column) and recall ("rec" column) are not high for both the majority and minority class. Compared to Naive 
 Random oversampling, precision and recall for both classes have increased slightly and the F1 score for low risk is higher. 
 According to the low precision and recall, this model does not perform well, but compared to the Naive Random Forest works slightly better. The model's accuracy is low.
+
 
 3- As shown in the following table,
 
@@ -92,8 +94,9 @@ The metrics of the low risk class precision , recall and F1 score do not show a 
 
 
 
-4- Combination (Over and Under) Sampling using SMOTEENN Algorithm
-As shown in the following table,
+
+
+4- As shown in the following table,
 
 
 
