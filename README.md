@@ -161,7 +161,9 @@ We first performed the strategy of oversampling uning Naive Random Forest to pre
 Undersampling is another technique to address class imbalance. Undersampling identifies clusters of the majority class, then generates synthetic data points, called centroids, that are representative of the clusters. By using undersampling, the results are unimpressive, especially for predicting data. These results are worse than those from oversampling! While resampling can attempt to address imbalance, it does not guarantee better results. 
 
 An approach to resampling is to combine aspects of both oversampling and undersampling. SMOTEENN combines the SMOTE and Edited Nearest Neighbors (ENN) algorithms in two-step process:
+
 1- Oversample the minority class with SMOTE.
+
 2- Clean the resulting data with an undersampling strategy. If the two nearest neighbors of a data point belong to two different classes, that data point is dropped.
 Resampling with SMOTEENN did not work miracles, but some of the metrics show an improvement over undersampling.
 
