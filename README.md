@@ -106,7 +106,7 @@ The metrics of the low risk class precision , recall and F1 score do not show a 
 
 
 
-The metrics of the majority class are precision (1), recall (0.57), F1 score (0.73), the model's accuracy (0.57) and the balanced accuracy score (0.68) do not show a good performance. In fact, after combining the under and over sampling, we are not able to show a desireable performance at least for the majority class.
+The metrics of the majority class are precision, recall, F1 score, the model's accuracy and the balanced accuracy score do not show a good performance. In fact, after combining the under and over sampling, we are not able to show a desireable performance at least for the majority class.
 
 
 ## Use Ensemble Classifiers to Predict Credit Risk
