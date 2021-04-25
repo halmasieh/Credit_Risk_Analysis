@@ -36,9 +36,14 @@ As shown in the following table,
 
 
 
-
-From the confusion matrix results, the precision ("pre" column) is low, indicating a large number of false positives, which indicates an unreliable positive classification. The recall ("rec" column) is also low,  which is indicative of a large number of false negatives. The F1 score is also not so high (0.76). In summary, this random forest model is not good at classifying low risk because the model's accuracy (0.60) and F1 score (0.76) are low. In addition due to the very low precision and F1 score high risk, this model is not a good classifier for high risk as well. The balanced accuracy score (0.65) is low.
-
+The metrics for the majority class are as follows:
+- Precision: 1
+- Recall: 0.61
+- F1 Score: 0.76
+- Model's Accuracy: 0.60
+- Balanced Accuracy Score: 0.65
+ 
+From the confusion matrix results, the precision ("pre" column) is low, indicating a large number of false positives, which indicates an unreliable positive classification. The recall ("rec" column) is also low,  which is indicative of a large number of false negatives. The F1 score is also not so high. In summary, this random forest model is not good at classifying low risk because the model's accuracy and F1 score are low. In addition due to the very low precision and F1 score high risk, this model is not a good classifier for high risk as well. 
 
 ###  SMOTE Oversampling
 As shown in the following table,
@@ -52,9 +57,15 @@ As shown in the following table,
 
 
 
+The metrics for the majority class are as follows:
+- Precision: 1
+- Recall: 0.69
+- F1 Score: 0.82
+- Model's Accuracy: 0.69
+- Balanced Accuracy Score: 0.66
 
 The precision ("pre" column) and recall ("rec" column) are not high for both the majority and minority class. The balanced accuracy score is 0.66. Compared to Naive 
-Random oversampling, precision and recall for both classes have increased slightly and the F1 score (0.82) for low risk is higher. According to the low precision and recall, this model does not perform well, but compared to the Naive Random Forest works slightly better. The model's accuracy (0.69) is low.
+Random oversampling, precision and recall for both classes have increased slightly and the F1 score for low risk is higher. According to the low precision and recall, this model does not perform well, but compared to the Naive Random Forest works slightly better. The model's accuracy is low.
 
 ### Undersampling
 As shown in the following table,
@@ -69,9 +80,14 @@ As shown in the following table,
 
 
 
+The metrics for the majority class are as follows:
+- Precision: 1
+- Recall: 0.40
+- F1 Score: 0.57
+- Model's Accuracy: 0.41
+- Balanced Accuracy Score: 0.54
 
-
-The metrics of the low risk class (precision (1), recall (0.40), and F1 score (0.57) do not show a good performance. The model's accuracy (0.41) and the balanced accuracy score (0.54) is very low. Therefore this model is not a good classifier for both the majority and minority class.   
+The metrics of the low risk class precision , recall and F1 score do not show a good performance. The model's accuracy and the balanced accuracy score are very low. Therefore this model is not a good classifier for both the majority and minority class.   
 
 
 
