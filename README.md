@@ -14,7 +14,7 @@ In addition, we apply resampling skills as well as build on old skills. These sk
 
 
 ## Resources
-Software:[Python 3.7.6](https://www.python.org/downloads/) and [Jupyter Notebook](https://www.anaconda.com/products/individual)
+Software: [Python 3.7.6](https://www.python.org/downloads/) and [Jupyter Notebook](https://www.anaconda.com/products/individual)
 - library: Scikit-learn
 
 
