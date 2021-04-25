@@ -10,9 +10,7 @@ This analysis can be summarized in the following steps, using machine learning:
 - Compare the strengths and weaknesses of machine learning models.
 - Assess how well a model classsifies and predicts data.
 
-In addition, we apply resampling skills as well as build on old skills. These skills are important because machine learning requires to think about all the pieces of the data analytics puzzle at once.
-
-In fact, machine learning requires to think about people's aspects to the puzzle too. After all, the best analysis is not worth much if the stakeholders do not understand. We dig into the technical details and the puzzle peices, to several machine learning models and evaluate them to predict credit risk, and being able to predict credit risk with machine learning algorithms can help banks and financial institutions predict anomalies, reduce risk cases, monitor portfolios, and provide recommendations on what to do in cases of fraud.
+In addition, we apply resampling skills as well as build on old skills. These skills are important because machine learning requires to think about all the pieces of the data analytics puzzle at once. In fact, machine learning requires to think about people's aspects to the puzzle too. After all, the best analysis is not worth much if the stakeholders do not understand. We dig into the technical details and the puzzle pieces, to several machine learning models and evaluate them to predict credit risk, and being able to predict credit risk with machine learning algorithms can help banks and financial institutions predict anomalies, reduce risk cases, monitor portfolios, and provide recommendations on what to do in cases of fraud.
 
 
 ## Resources
